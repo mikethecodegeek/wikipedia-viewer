@@ -1,5 +1,6 @@
 body {
-    background-color: #092B40;
+   background-image: url('http://1.bp.blogspot.com/-guCfmjEWH84/VHwqG7S5TkI/AAAAAAAAAaA/irWEu6jyYJI/s1600/Background%2BDesign%2BTheme%2BLight%2BGray.jpg');
+   background-size: cover;    
 }
 
 .wikipage {
@@ -8,7 +9,7 @@ body {
     width: 80%;
     margin-left: 10%;
     padding: 20px 20px 10px 20px;
-    opacity: .9;
+    opacity: .95;
 }
 
 .title {
@@ -91,22 +92,37 @@ body {
 
 #searchbox {
     position: absolute;
-    background-color: #092B40;
+    background-color: transparent;
     height: 30px;
     font-size: 26px;
-    color: darkorange;
-    border: solid cyan 3px;
+    border: solid black 4px;
     text-align: center;
     border-radius: 10px;
+    
+}
+
+#searchbox:focus {
+    outline-width: 0;
 }
 
 #clear {
-    background-color: #092B40;
-    font-size: 18px;
+    background-color: transparent; /* #092B40; */
+    font-size: 26px;
     position: relative;
-    left: +250px;
-    top: +7px;
+    left: +280px;
+    top: +4px;
     border: none;
-    color:azure;
+    color:darkgray;
     display: none;
 }
+
+.back {
+    position: fixed;
+    height: 400px;
+}
+
+.back:first-of-type {
+    left: 70%;
+    top: 50%;
+}
+
