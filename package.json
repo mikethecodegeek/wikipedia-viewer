@@ -4,7 +4,8 @@
   "description": "Free Code Camp Challenge",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"  
   },
   "author": "Michael Sanford",
   "license": "ISC",
@@ -15,7 +16,6 @@
     "http": "0.0.0",
     "morgan": "^1.7.0",
     "path": "^0.12.7",
-    "request": "^2.74.0",
-    "wikijs": "^1.1.0"
+    "request": "^2.74.0"
   }
 }
