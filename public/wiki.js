@@ -54,7 +54,7 @@ function init() {
     $("#searchbox").autocomplete({
     source: function(request, response) {
         $.ajax({
-            url: "http://en.wikipedia.org/w/api.php",
+            url: "//en.wikipedia.org/w/api.php",
             dataType: "jsonp",
             data: {
                 'action': "opensearch",
